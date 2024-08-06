@@ -155,11 +155,6 @@ class _HomePageState extends State<HomePage> {
                         .copyWith(secondary: green),
                     primaryColorLight: Colors.white,
                     primaryColorDark: navyBlue,
-                    textTheme: Theme.of(context).textTheme.copyWith(
-                          bodyText2: TextStyle(
-                            color: lightBlue,
-                          ),
-                        ),
                   ),
                   child: Builder(
                     builder: (context) {
